@@ -26,18 +26,23 @@
        table:hover{color:white;}
 
 a {
-  color: blue;
-}
-
-@media (max-width: 480px) {
-  a {
-    color: red;
-  }
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {
   a {
-    color: green;
+    padding: 8px 16px;
+    background-color: green; /* Cor diferente em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  a {
+    padding: 6px 12px;
+    background-color: red;
   }
 }
 
